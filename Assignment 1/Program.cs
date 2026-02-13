@@ -1,4 +1,6 @@
-﻿Console.WriteLine("Please enter the invoice amount");
+﻿//Assignment 1 13-02-2026
+
+Console.WriteLine("Please enter the invoice amount");
 
 double amount = Convert.ToDouble(Console.ReadLine());
 
