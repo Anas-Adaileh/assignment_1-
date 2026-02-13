@@ -46,4 +46,6 @@ if (_amount < 0)
 
 discountAmount = _amount * discountPercentage;
 finalAmount = _amount - discountAmount;
-Console.WriteLine($"The final amount after discount {discountPercentage} is: {finalAmount}");
+string transDate = (DateTime.UtcNow).ToString("dd-MMM-yyyy");
+Console.WriteLine($"The final amount after discount {discountPercentage * 100}% is: {finalAmount}");
+Console.WriteLine($"Transaction happened at: {transDate}");
